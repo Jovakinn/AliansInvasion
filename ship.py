@@ -15,7 +15,6 @@ class Ship:
         self.ship_speed = 1.5
 
     def update(self):
-
         if self.moving_right:
             self.x += self.settings.ship_speed
         if self.moving_left:
